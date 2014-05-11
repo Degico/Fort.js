@@ -17,7 +17,7 @@ You can also change the color of the progress bar by modifying `fort.min.css`.
 ```css
 background: #000;
 ```
-Think the progress bar speed it too slow or too fast? No worries. In the stylesheet just change the speed to your desired liking.
+Think the progress bar speed is too slow or too fast? No worries. In the stylesheet just change the speed to your desired liking.
 ```css
 transition: all 1s;
 ```
