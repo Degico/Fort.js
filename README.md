@@ -4,7 +4,7 @@ Modern progress bar for form completion.
 
 
 ##Usage
-Using Fort.js is so simple, its simple. All you do is insert `fort.min.css` and  `fort.min.css` into the `<head>` and pop in an `<input>` into `<div clas="top">`. Anything outside of the `<div>` won't count. And don't forget jQuery. Yep, that's all there is to it. Fort.js does the rest (but you can do it too) No need to add an `<id>`.
+Using Fort.js is so simple, it's simple. All you do is insert `fort.min.js` and  `fort.min.css` into the `<head>` then pop in an `<input>` into `<div class="top">`. Anything outside of the `<div>` won't count. And don't forget jQuery. Yep, that's all there is to it. Fort.js does the rest.
 ```html
 <head>
   <script src="fort.min.js"></script>
