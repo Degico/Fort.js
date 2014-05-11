@@ -31,7 +31,7 @@ Fort.js is licensed under the MIT license.(http://opensource.org/licenses/MIT)
 **Fort.js** is authored and maintained by Idris Khenchil
 
 
- * [My website](http://ricostacruz.com) (colourity.com)
+ * [My website](http://colourity.com) (colourity.com)
  * [Github](http://github.com/colourity) (@colourity)
 
 Feel free to check out the demo [here](http://colourity.github.io/) and if this was helpful maybe buy me a coffee?  
