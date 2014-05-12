@@ -22,7 +22,8 @@ Think the progress bar speed is too slow or too fast? No worries. In the stylesh
 transition: all 1s;
 ```
 Additionally if you prefer the bottom rather the top, just change `top: 0;` to `bottom: 0;` in the stylesheet.
-
+##Themes
+Different progress effects coming soon ;) Feel free to email me some ideas. 
 ##License
 Fort.js is licensed under the MIT license.(http://opensource.org/licenses/MIT)
 It pretty simple, but heres the defination we get 
