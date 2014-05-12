@@ -19,7 +19,16 @@ body {
     position: relative;
     width: 375px;
 }
-
+@media only screen
+and (max-width : 320px) {
+.form-wrapper {
+    padding-top: 10%;
+    border-radius: 2px;
+    margin: 50px auto;
+    position: relative;
+    width: 320px;
+}
+}
 form {
     padding: 30px 20px 0;
 }

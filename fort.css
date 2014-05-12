@@ -1,10 +1,12 @@
-.top {
+  .top {
     background: #009dff;
+    /*Comment the above background and uncomment the below background for a gradient */
+    /*background: linear-gradient(to right, #009dff 0%,#00c8ff 100%);*/
     position: fixed;
     z-index: 1031;
     top: 0;
     left: 0;
     height: 4px;
-    transition: all 1s;
-    width: 0;
+    transition:all 1s;
+    width: 0
 }

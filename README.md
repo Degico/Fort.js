@@ -22,6 +22,10 @@ Think the progress bar speed is too slow or too fast? No worries. In the stylesh
 transition: all 1s;
 ```
 Additionally if you prefer the bottom rather the top, just change `top: 0;` to `bottom: 0;` in the stylesheet.
+
+**Gradients?**
+Yup. All preset in the stylesheet. Just comment the regular background and uncomment the gradient background. Now choose your colors!
+
 ##Themes
 Different progress effects coming soon ;) Feel free to email me some ideas.
 ##License
