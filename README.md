@@ -1,7 +1,7 @@
 #Fort.js
 
 Modern progress bar for form completion.
-
+All you do is add the form and Fort.js' algorithm will take care of the rest.  
 
 ##Usage
 Using Fort.js is so simple, it's simple. All you do is insert `fort.min.js` and  `fort.min.css` into the `<head>` then pop in an `<input>` into `<div class="top">`. Anything outside of the `<div>` won't count. And don't forget jQuery. Yep, that's all there is to it. Fort.js does the rest.
@@ -23,10 +23,10 @@ transition: all 1s;
 ```
 Additionally if you prefer the bottom rather the top, just change `top: 0;` to `bottom: 0;` in the stylesheet.
 ##Themes
-Different progress effects coming soon ;) Feel free to email me some ideas. 
+Different progress effects coming soon ;) Feel free to email me some ideas.
 ##License
 Fort.js is licensed under the MIT license.(http://opensource.org/licenses/MIT)
-It pretty simple, but heres the defination we get 
+It pretty simple, but heres the definition we get
 
 The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don't hold you liable.
 ##Acknowledgements
