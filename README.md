@@ -25,7 +25,9 @@ Additionally if you prefer the bottom rather the top, just change `top: 0;` to `
 
 ##License
 Fort.js is licensed under the MIT license.(http://opensource.org/licenses/MIT)
+It pretty simple, but heres the defination we get 
 
+The MIT License is a permissive license that is short and to the point. It lets people do anything they want with your code as long as they provide attribution back to you and don't hold you liable.
 ##Acknowledgements
 
 **Fort.js** is authored and maintained by Idris Khenchil
