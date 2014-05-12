@@ -1,26 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Fort.js</title>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
-    </script>
-    <link rel="stylesheet" href="../fort.min.css">
-    </head>
-    <body>
-      <div class="top">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Fort.js</title>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<style>
+      .top {
+    background: #009dff;
+    position: fixed;
+    z-index: 1031;
+    top: 0;
+    left: 0;
+    height: 4px;
+    transition: all 1s;
+    width: 0;
+}
+</style>
+</head>
+<body>
+<div class="form-wrapper">
+	<div class="top"></div>
+	<h1 style="color: #000; text-align: center;">Fort.js</h1>
+	<form name="form">
+		<div class="form">
+			<div class="form-item">
+				<label for="text">
+				<span class="fontawesome-user"></span></label>
+				<input type="text" name="text" required="required" placeholder="Name">
+			</div>
+			<div class="form-item">
+				<label for="text">
+				<span class="fontawesome-user"></span></label>
+				<input type="text" name="text" required="required" placeholder="Username">
+			</div>
+			<div class="form-item">
+				<label for="password">
+				<span class="fontawesome-lock"></span></label>
+				<input type="password" name="password" required="required" placeholder="Password">
+			</div>
+			<div class="button-panel">
+				<input type="submit" class="button" title="Sign In" value="Test It Out">
+				<p class="view">
+					<a  href="https://github.com/Colourity/Fort.js" id="ref">View on GitHub</a>
+				</p>
       </div>
-      <div class="form">
-        <form name="form">
-          <input type="email" />
-          <br />
-          <input type="text" />
-          <br />
-          <input type="password" />
-          <input type="submit" />
-        </form>
-      </div>
-      <script src="../fort.min.js">
-      </script>
-    </body>
-</html>
+	</div>
+</form>
+</div>
+
+	<script src="fort.min.js"></script>
+	</body>
+	</html>
