@@ -4,12 +4,11 @@ Modern progress bar for form completion.
 All you do is add the form and Fort.js' algorithm will take care of the rest.  
 
 ##Usage
-Using Fort.js is so simple, it's simple. All you do is insert `fort.min.js` and  `fort.min.css` into the `<head>` then pop in an `<input>` into `<div class="top">`. Anything outside of the `<div>` won't count. And don't forget jQuery. Yep, that's all there is to it. Fort.js does the rest.
+Using Fort.js is so simple, it's simple. All you do is insert `fort.min.js` and  `fort.min.css` into the `<head>` then pop in an `<input>` into `<div class="top">`. Anything outside of the `<div>` won't count. Yep, that's all there is to it. Fort.js does the rest.
 ```html
 <head>
   <script src="fort.min.js"></script>
   <link rel="stylesheet" href="fort.min.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 ```
 
@@ -23,7 +22,7 @@ transition: all 1s;
 ```
 Additionally if you prefer the bottom rather the top, just change `top: 0;` to `bottom: 0;` in the stylesheet.
 
-Want to change the height? Crack open the stylesheet and change `height: 4px;` to your liking. 
+Want to change the height? Crack open the stylesheet and change `height: 4px;` to your liking.
 
 
 **Gradients?**
