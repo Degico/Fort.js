@@ -64,6 +64,7 @@ form {
 }
 
 .button-panel .button {
+    outline: none;
     background: #009dff;
     border: none;
     border-radius: 2px;
