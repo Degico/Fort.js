@@ -23,6 +23,9 @@ transition: all 1s;
 ```
 Additionally if you prefer the bottom rather the top, just change `top: 0;` to `bottom: 0;` in the stylesheet.
 
+Worried about the height? Crack open the stylesheet and change `height: 4px;` to your liking. 
+
+
 **Gradients?**
 Yup. All preset in the stylesheet. Just comment the regular background and uncomment the gradient background. Now choose your colors!
 
@@ -39,6 +42,6 @@ The MIT License is a permissive license that is short and to the point. It lets 
 
 
  * [My website](http://colourity.com) (colourity.com)
- * [Github](http://github.com/colourity) (@colourity)
 
-Feel free to check out the demo [here](http://colourity.github.io/) and if this was helpful maybe buy me a coffee?  
+
+Feel free to check out the demo [here](http://colourity.github.io/).
