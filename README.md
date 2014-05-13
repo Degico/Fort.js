@@ -23,7 +23,7 @@ transition: all 1s;
 ```
 Additionally if you prefer the bottom rather the top, just change `top: 0;` to `bottom: 0;` in the stylesheet.
 
-Worried about the height? Crack open the stylesheet and change `height: 4px;` to your liking. 
+Want to change the height? Crack open the stylesheet and change `height: 4px;` to your liking. 
 
 
 **Gradients?**
