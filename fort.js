@@ -1,28 +1,23 @@
-var forms  = document.querySelectorAll('.form'),
-    inputs = [];
-
-for (var i = forms.length; i--;) {
-    var els = forms[i].querySelectorAll('input, textarea, select');
-
-    for (var j = els.length; j--;) {
-        if (els[j].type != 'button' && els[j].type != 'submit') {
-            inputs.push(els[j]);
-            els[j].addEventListener('input', cback, false);
-        }
+function cback(e) {
+    var t = [];
+    for (var n = inputs.length; n--;) {
+        if (!inputs[n].value.length) t.push(inputs[n]);
+    }
+    var r = t.length;
+    var i = inputs.length;
+    var s = document.querySelectorAll(".top");
+    for (var o = s.length; o--;) {
+        s[o].style.width = 100 - r / i * 100 + "%";
     }
 }
-function cback(event) {
-    var b = [];
-
-    for (var i=inputs.length; i--;) {
-        if ( ! inputs[i].value.length ) b.push(inputs[i]);
-    }
-
-    var l1  = b.length;
-    var l2  = inputs.length;
-    var top = document.querySelectorAll('.top');
-
-    for (var j=top.length; j--;) {
-        top[j].style.width = 100 - (l1 / l2) * 100 + "%";
+var forms = document.querySelectorAll(".form"),
+    inputs = [];
+for (var i = forms.length; i--;) {
+    var els = forms[i].querySelectorAll("input, textarea, select");
+    for (var j = els.length; j--;) {
+        if (els[j].type != "button" && els[j].type != "submit") {
+            inputs.push(els[j]);
+            els[j].addEventListener("input", cback, false);
+        }
     }
 }
