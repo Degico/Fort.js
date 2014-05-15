@@ -28,8 +28,11 @@ Want to change the height? Crack open the stylesheet and change `height: 4px;` t
 **Gradients?**
 Yup. All preset in the stylesheet. Just comment the regular background and uncomment the gradient background. Now choose your colors!
 
-##Themes
-Different progress effects coming soon ;) Feel free to email me some ideas.
+##Coming soon
+ * Different colored sections
+ * More setting
+ * Option to only include certain forms
+
 ##License
 Fort.js is licensed under the MIT license.(http://opensource.org/licenses/MIT)
 It pretty simple, but heres the definition we get
