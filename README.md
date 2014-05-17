@@ -1,7 +1,7 @@
 #Fort.js
 
 Modern progress bar for form completion.
-All you do is add the form and Fort.js' algorithm will take care of the rest. Best of all, it super small. 
+All you do is add the form and Fort.js' algorithm will take care of the rest. Best of all, it super small.
 
 ##Usage
 Using Fort.js is so simple, it's simple. All you do is insert `fort.min.js` and  `fort.min.css` into the `<head>` then pop in an `<input>` into `<div class="top">`. Anything outside of the `<div>` won't count. Yep, that's all there is to it. Fort.js does the rest.
@@ -27,9 +27,13 @@ Want to change the height? Crack open the stylesheet and change `height: 4px;` t
 
 **Gradients?**
 Yup. All preset in the stylesheet. Just comment the regular background and uncomment the gradient background. Now choose your colors!
+##Effects
+ * [Default](http://colourity.github.io/)
+ * [Gradient](http://colourity.github.io/gradient)
+ * [Sections](http://colourity.github.io/sections)
+ * [Flash](http://colourity.github.io/flash)
 
 ##Coming soon
- * Different colored sections
  * More setting
  * Option to only include certain forms
 
