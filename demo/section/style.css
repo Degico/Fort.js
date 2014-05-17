@@ -20,17 +20,6 @@ body {
     width: 375px;
 }
 
-@media only screen
-and (max-width : 320px) {
-    .form-wrapper {
-        padding-top: 10%;
-        border-radius: 2px;
-        margin: 50px auto;
-        position: relative;
-        width: 320px;
-    }
-}
-
 form {
     padding: 30px 20px 0;
 }
@@ -64,6 +53,7 @@ form {
 }
 
 .button-panel .button {
+    -webkit-appearance: none;
     background: #009dff;
     border: none;
     border-radius: 2px;
@@ -80,8 +70,21 @@ form {
 }
 
 .button:hover {
+
     background: #00c8ff;
 }
+
+@media only screen
+and (max-width : 320px) {
+.form-wrapper {
+    padding-top: 10%;
+    border-radius: 2px;
+    margin: 50px auto;
+    position: relative;
+    width: 320px;
+}
+}
+
 
 .cent {
     text-align: center;
@@ -95,7 +98,7 @@ form {
     padding-top: 5px;
 }
 
-.ref {
+#ref {
     text-align: center;
     text-decoration: none;
     color: #7b8993;
@@ -103,16 +106,11 @@ form {
     font-size: 16px;
 }
 
-.ref:hover {
+#ref:hover {
     text-align: center;
     text-decoration: none;
     color: #009dff;
     -webkit-animation: hue 60s infinite linear;
     padding-top: 8px;
     font-size: 16px;
-}
-
-.head {
-    color: #000;
-    text-align: center;
 }
